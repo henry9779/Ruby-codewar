@@ -1,6 +1,8 @@
 def sum_mix(x)
-  x.map(&:to_i).sum
+  x.map(&:to_i).reduce(:+)
   # 先將陣列內的字串轉成int，再全部做相加
+  x.map(&:to_i).sum
+  # 用 sum 相加
 end
 
 Test.describe "Basic tests" do
