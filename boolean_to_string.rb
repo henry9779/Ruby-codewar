@@ -1,11 +1,11 @@
 def boolean_to_string(b)
   case
   when b == true
-  "true"
+    "true"
   when b == false
-  "false"
+    "false"
   end
-  # 判斷
+  # 判斷引數是否一樣，如果是就回傳相對應的值
 end
 
 # ========== 參考更好寫法 ==========
