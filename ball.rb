@@ -13,7 +13,7 @@ end
 # ========== 第二種寫法 =========
 class Ball
   attr_reader :ball_type
-  # attr 取代下面三行
+  # attr_reader 取代下面三行
   # def ball_type
   #  @ball_type
   # end
