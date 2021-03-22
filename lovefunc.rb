@@ -11,6 +11,11 @@ def lovefunc( flower1, flower2 )
   end
 end
 
+def lovefunc( flower1, flower2 )
+  (flower1 + flower2).odd?
+  # 相加起來判斷是否為奇數
+end
+
 Test.describe "Basic Tests" do
   Test.it "should pass basic tests" do
     Test.assert_equals(lovefunc(1,4), true)
