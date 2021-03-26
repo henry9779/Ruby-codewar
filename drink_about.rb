@@ -11,6 +11,11 @@ def people_with_age_drink(old)
   end
 end
 
+def people_with_age_drink(old)
+  "drink " + (old < 14 ? "toddy" : old < 18 ? "coke" : old < 20 ? "beer" : "whisky")
+end
+
+
 Test.describe "Fixed tests" do
   Test.it "should pass fixed tests" do
     Test.assert_equals(people_with_age_drink(22), 'drink whisky')
