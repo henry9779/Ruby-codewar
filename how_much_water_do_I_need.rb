@@ -12,7 +12,7 @@ def how_much_water(water, max_load, clothes)
   'Too much clothes' if clothes > max_load * 2
   'Not enough clothes' if clothes < max_load
 
-  (water * 1.1**(clothes - max_load)).round(2)
+  (water * 1.1 **(clothes - max_load)).round(2)
 end
 
 describe "static tests" do

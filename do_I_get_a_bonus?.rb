@@ -1,5 +1,5 @@
 def bonus_time(salary, bonus)
-  bonus == true ? "$"+(salary * 10).to_s : "$ #{salary}"
+  bonus == true ? "$"+(salary * 10).to_s : "$#{salary}"
 end
 
 Test.describe("Basic tests") do
