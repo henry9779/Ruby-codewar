@@ -2,6 +2,10 @@ def powers_of_two(n)
   0.upto(n).map { |i| 2 ** i }
 end
 
+def powers_of_two(n)
+  (0..n).map { |i| 2 ** i }
+end
+
 describe "Solution" do
   it "Fixed tests" do
     Test.assert_equals(powers_of_two(0), [1])
